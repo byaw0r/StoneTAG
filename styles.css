@@ -45,7 +45,7 @@ p {
     font-size: 19px;
     line-height: 1.2;
     text-align: left; /* Выравнивание текста по левому краю */
-    margin-left: 48px; /* Убираем отступ слева */
+    margin-left: 70px; /* Убираем отступ слева */
     }
     
     .server-address {

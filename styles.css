@@ -27,7 +27,7 @@ body {
 /* Стили для заголовка */
 h1 {
     color: #918484;
-    font-size: 18px;
+    font-size: 19px;
     margin-top: 5;
     margin-bottom: 10px;
     margin-left: 48px; /* Смещение вправо на 50px (можно изменить) */
@@ -42,7 +42,7 @@ h1 {
 /* Стили для основного текста */
 p {
     color: #918484;
-    font-size: 17px;
+    font-size: 19px;
     line-height: 1.2;
     text-align: left; /* Выравнивание текста по левому краю */
     margin-left: 48px; /* Убираем отступ слева */
@@ -118,5 +118,5 @@ button:hover {
     font-size: 14px; /* Размер шрифта */
     margin-top: 25px; /* Отступ сверху */
     text-align: center; /* Текст "Сведения" по центру */
-    width: 65%; /* Ширина текста на всю доступную область */
+    width: 70%; /* Ширина текста на всю доступную область */
 }

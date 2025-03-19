@@ -30,7 +30,7 @@ h1 {
     font-size: 19px;
     margin-top: 5;
     margin-bottom: 10px;
-    margin-left: 48px; /* Смещение вправо на 50px (можно изменить) */
+    margin-left: 50px; /* Смещение вправо на 50px (можно изменить) */
     text-align: left; /* Выравнивание текста по левому краю */
     }
     
@@ -45,7 +45,7 @@ p {
     font-size: 19px;
     line-height: 1.2;
     text-align: left; /* Выравнивание текста по левому краю */
-    margin-left: 70px; /* Убираем отступ слева */
+    margin-left: 52px; /* Убираем отступ слева */
     }
     
     .server-address {
@@ -118,5 +118,5 @@ button:hover {
     font-size: 14px; /* Размер шрифта */
     margin-top: 25px; /* Отступ сверху */
     text-align: center; /* Текст "Сведения" по центру */
-    width: 70%; /* Ширина текста на всю доступную область */
+    width: 67%; /* Ширина текста на всю доступную область */
 }

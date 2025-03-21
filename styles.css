@@ -126,10 +126,10 @@ button:hover {
 /* Стили для изображения на второй вкладке */  
 .tab2-image {  
     max-width: 100%;  
-    width: 300px; /* Уменьшенный размер */  
+    width: 400px; /* Уменьшенный размер */  
     height: auto;  
     border-radius: 10px;  
-    margin-bottom: 350px; /* Отступ сверху */  
+    margin-bottom: 400px; /* Отступ сверху */  
 }  
 
 /* Стили для текста на второй вкладке */  
@@ -142,5 +142,5 @@ button:hover {
     color: white;  
     padding: 10px 20px;  
     border-radius: 10px;  
-    font-size: 50px;  
+    font-size: 65px;  
 }  

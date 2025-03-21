@@ -126,7 +126,7 @@ button:hover {
 /* Стили для изображения на второй вкладке */  
 .tab2-image {  
     max-width: 100%;  
-    width: 575px; /* Уменьшенный размер */  
+    width: 650px; /* Уменьшенный размер */  
     height: auto;  
     border-radius: 10px;  
     margin-bottom: 475px; /* Отступ сверху */  
@@ -135,7 +135,7 @@ button:hover {
 /* Стили для текста на второй вкладке */  
 .tab2-text {  
     position: absolute;  
-    bottom: 150px; /* Расположение внизу */  
+    bottom: 200px; /* Расположение внизу */  
     left: 50%;  
     transform: translateX(-50%);  
     background-color: rgba(0, 0, 0, 0.7); /* Настраиваемый фон */  

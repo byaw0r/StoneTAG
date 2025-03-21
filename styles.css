@@ -1,3 +1,9 @@
+/* Отключаем прокрутку для body и html */  
+html, body {  
+    overflow: hidden;  
+    height: 100%;  
+}  
+
 /* Основные стили для body */  
 body {  
     font-family: Arial, sans-serif;  
@@ -125,22 +131,22 @@ button:hover {
 
 /* Стили для изображения на второй вкладке */  
 .tab2-image {  
-    max-width: 1000%;  
-    width: 500px; /* Уменьшенный размер */  
+    max-width: 100%;  
+    width: 350px; /* Уменьшенный размер */  
     height: auto;  
     border-radius: 10px;  
-    margin-bottom: 475px; /* Отступ сверху */  
+    margin-bottom: 300px; /* Отступ сверху */  
 }  
 
 /* Стили для текста на второй вкладке */  
 .tab2-text {  
     position: absolute;  
-    bottom: 200px; /* Расположение внизу */  
+    bottom: 150px; /* Расположение внизу */  
     left: 50%;  
     transform: translateX(-50%);  
     background-color: rgba(0, 0, 0, 0.7); /* Настраиваемый фон */  
     color: white;  
     padding: 10px 20px;  
     border-radius: 10px;  
-    font-size: 75px;  
+    font-size: 50px;  
 }  

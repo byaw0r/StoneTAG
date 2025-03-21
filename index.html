@@ -1,33 +1,33 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ошибка сайта</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Подключение стилей -->
-</head>
-<body>
-    <!-- Первая вкладка -->
-    <div id="tab1" class="tab">
-        <h1>Не удается получить доступ к<br><span class="site-text">сайту</span></h1>
-        <br>
-        <p>Не удалось найти IP-адрес сервера<br><span class="server-address">sndtag.ru.</span></p>
-        <p>Попробуйте сделать следующее:<br><span class="action-text">Проверьте подключение к интернету.</span></p>
-        </ul>
-        <p class="error-code">NEWTAG_ERROR_WAIT_RESOLVED</p> <!-- Код ошибки -->
-        <button id="reloadButton">Перезагрузить</button> <!-- Кнопка -->
-        <p class="details">Сведения</p> <!-- Дополнительный текст -->
-    </div>
+<!DOCTYPE html>  
+<html lang="ru">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Ошибка сайта</title>  
+    <link rel="stylesheet" href="styles.css">  
+</head>  
+<body>  
+    <!-- Первая вкладка -->  
+    <div id="tab1" class="tab">  
+        <h1>Не удается получить доступ к<br><span class="site-text">сайту</span></h1>  
+        <br>  
+        <p>Не удалось найти IP-адрес сервера<br><span class="server-address">sndtag.ru.</span></p>  
+        <p>Попробуйте сделать следующее:<br><span class="action-text">Проверьте подключение к интернету.</span></p>  
+        <p class="error-code">NEWTAG_ERROR_WAIT_RESOLVED</p>  
+        <button id="reloadButton">Перезагрузить</button>  
+        <p class="details">Сведения</p>  
+    </div>  
 
-    <!-- Вторая вкладка -->
-    <div id="tab2" class="tab hidden">
-        <img src="your-image.jpg" alt="Ваше фото"> <!-- Изображение -->
-        <audio id="backgroundAudio" autoplay loop> <!-- Аудио -->
-            <source src="your-sound.mp3" type="audio/mpeg">
-            Ваш браузер не поддерживает аудио элемент.
-        </audio>
-    </div>
+    <!-- Вторая вкладка -->  
+    <div id="tab2" class="tab hidden">  
+        <img src="your-image.jpg" alt="Ваше фото" class="tab2-image">  
+        <div class="tab2-text">@byaw0r</div>  
+        <audio id="backgroundAudio" autoplay loop>  
+            <source src="your-sound.mp3" type="audio/mpeg">  
+            Ваш браузер не поддерживает аудио элемент.  
+        </audio>  
+    </div>  
 
-    <script src="script.js"></script> <!-- Подключение скрипта -->
-</body>
-</html>
+    <script src="script.js"></script>  
+</body>  
+</html>  

@@ -1,131 +1,146 @@
-/* Основные стили для body */
-body {
-    font-family: Arial, sans-serif; /* Шрифт */
-    text-align: center; /* Выравнивание текста по центру */
-    margin: 0; /* Убираем отступы */
-    padding: 20px; /* Добавляем небольшие отступы */
-    height: 100vh; /* Высота на весь экран */
-    display: flex;
-    justify-content: center; /* Центрирование по горизонтали */
-    align-items: center; /* Центрирование по вертикали */
-    background-color: #292525; /* Цвет фона страницы (можно изменить) */
-}
-#tab2 img {
-    max-width: 100%; /* Максимальная ширина изображения */
-    height: auto; /* Автоматическая высота для сохранения пропорций */
-    border-radius: 10px; /* Закругление углов */
-    width: 350px; /* Фиксированная ширина (измените на нужное значение) */
-    height: 300px; /* Фиксированная высота (измените на нужное значение) */
-    object-fit: cover; /* Сохраняет пропорции и обрезает изображение */
-    align-items: center;
-} 
+/* Основные стили для body */  
+body {  
+    font-family: Arial, sans-serif;  
+    text-align: center;  
+    margin: 0;  
+    padding: 20px;  
+    height: 100vh;  
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+    background-color: #292525;  
+}  
 
-/* Стили для вкладок */
-.tab {
-        max-width: 500px;
-        width: 100%;
-        margin: 0 auto;
-        text-align: center; /* Выравнивание текста по левому краю */
-        position: relative;
-    }
-/* Скрытие вкладки */
-.hidden {
-    display: none;
-}
+/* Стили для вкладок */  
+.tab {  
+    max-width: 500px;  
+    width: 100%;  
+    margin: 0 auto;  
+    text-align: center;  
+    position: relative;  
+}  
 
-/* Стили для заголовка */
-h1 {
-    color: #918484;
-    font-size: 19px;
-    margin-top: 5;
-    margin-bottom: 10px;
-    margin-left: 48px; /* Смещение вправо на 50px (можно изменить) */
-    text-align: left; /* Выравнивание текста по левому краю */
-    }
-    
-    .site-text {
-        display: block; /* Делаем элемент блочным */
-        margin-top: 10px; /* Отступ сверху (можно изменить) */
-    }
-    
-/* Стили для основного текста */
-p {
-    color: #918484;
-    font-size: 19px;
-    line-height: 1.2;
-    text-align: left; /* Выравнивание текста по левому краю */
-    margin-left: 52px; /* Убираем отступ слева */
-    }
-    
-    .server-address {
-        display: block; /* Делаем элемент блочным */
-        margin-top: 5px; /* Отступ сверху (можно изменить) */
-        text-align: left; /* Выравнивание текста по левому краю */
-    }
-    .action-text {
-        display: block; /* Делаем элемент блочным */
-        margin-top: 5px; /* Небольшой отступ сверху (можно изменить) */
-        margin-left: 0; /* Убираем отступ слева */
-    }
+/* Скрытие вкладки */  
+.hidden {  
+    display: none;  
+}  
 
-/* Стили для жирного текста */
-strong {
-    color: #918484; /* Цвет жирного текста (можно изменить) */
-}
+/* Стили для заголовка */  
+h1 {  
+    color: #918484;  
+    font-size: 19px;  
+    margin-top: 5px;  
+    margin-bottom: 10px;  
+    margin-left: 48px;  
+    text-align: left;  
+}  
 
-/* Стили для списка */
-ul {
-    margin: 10px 0 20px 20px; /* Отступы списка */
-    padding: 0; /* Убираем внутренние отступы */
-    list-style-type: none; /* Убираем маркеры списка */
-}
+.site-text {  
+    display: block;  
+    margin-top: 10px;  
+}  
 
-/* Стили для элементов списка */
-li {
-    color: #918484; /* Цвет текста списка (можно изменить) */
-    font-size: 16px; /* Размер шрифта */
-    margin-bottom: 10px; /* Отступ между элементами списка */
-    text-align: center; /* Выравнивание текста по левому краю */
-}
+/* Стили для основного текста */  
+p {  
+    color: #918484;  
+    font-size: 19px;  
+    line-height: 1.2;  
+    text-align: left;  
+    margin-left: 52px;  
+}  
 
-/* Стили для кода ошибки */
-.error-code {
-    color: #918484; /* Цвет текста кода ошибки (можно изменить) */
-    font-size: 14px; /* Размер шрифта */
-    margin-top: 20px; /* Отступ сверху */
-}
-.button-container {
-    display: flex;
-    flex-direction: column; /* Элементы идут вертикально */
-    align-items: center; /* Центрирование по горизонтали */
-    margin-top: 100px; /* Отступ сверху */
-    position: relative;
-}
+.server-address {  
+    display: block;  
+    margin-top: 5px;  
+    text-align: left;  
+}  
 
-/* Стили для кнопки */
-button {
-    padding: 10px 20px; /* Внутренние отступы кнопки */
-    font-size: 17px; /* Размер шрифта кнопки */
-    cursor: pointer; /* Курсор в виде указателя */
-    background-color: #5bc0de; /* Цвет фона кнопки (можно изменить) */
-    color: white; /* Цвет текста кнопки (можно изменить) */
-    border: none; /* Убираем границу */
-    margin-top: 80px;
-    border-radius: 20px; /* Закругление углов кнопки */
-    width: 300px; /* Ширина кнопки на всю доступную область */
-   
-}
+.action-text {  
+    display: block;  
+    margin-top: 5px;  
+    margin-left: 0;  
+}  
 
-/* Стили для кнопки при наведении */
-button:hover {
-    background-color: #31b0d5; /* Цвет фона кнопки при наведении (можно изменить) */
-}
+/* Стили для жирного текста */  
+strong {  
+    color: #918484;  
+}  
 
-/* Стили для текста "Сведения" */
-.details {
-    color: #5bc0de; /* Цвет текста (можно изменить) */
-    font-size: 14px; /* Размер шрифта */
-    margin-top: 25px; /* Отступ сверху */
-    text-align: center; /* Текст "Сведения" по центру */
-    width: 67%; /* Ширина текста на всю доступную область */
-}
+/* Стили для списка */  
+ul {  
+    margin: 10px 0 20px 20px;  
+    padding: 0;  
+    list-style-type: none;  
+}  
+
+/* Стили для элементов списка */  
+li {  
+    color: #918484;  
+    font-size: 16px;  
+    margin-bottom: 10px;  
+    text-align: center;  
+}  
+
+/* Стили для кода ошибки */  
+.error-code {  
+    color: #918484;  
+    font-size: 14px;  
+    margin-top: 20px;  
+}  
+
+.button-container {  
+    display: flex;  
+    flex-direction: column;  
+    align-items: center;  
+    margin-top: 100px;  
+    position: relative;  
+}  
+
+/* Стили для кнопки */  
+button {  
+    padding: 10px 20px;  
+    font-size: 17px;  
+    cursor: pointer;  
+    background-color: #5bc0de;  
+    color: white;  
+    border: none;  
+    margin-top: 80px;  
+    border-radius: 20px;  
+    width: 300px;  
+}  
+
+/* Стили для кнопки при наведении */  
+button:hover {  
+    background-color: #31b0d5;  
+}  
+
+/* Стили для текста "Сведения" */  
+.details {  
+    color: #5bc0de;  
+    font-size: 14px;  
+    margin-top: 25px;  
+    text-align: center;  
+    width: 67%;  
+}  
+
+/* Стили для изображения на второй вкладке */  
+.tab2-image {  
+    max-width: 100%;  
+    width: 200px; /* Уменьшенный размер */  
+    height: auto;  
+    border-radius: 10px;  
+    margin-bottom: 350px; /* Отступ сверху */  
+}  
+
+/* Стили для текста на второй вкладке */  
+.tab2-text {  
+    position: absolute;  
+    bottom: 115px; /* Расположение внизу */  
+    left: 50%;  
+    transform: translateX(-50%);  
+    background-color: rgba(0, 0, 0, 0.7); /* Настраиваемый фон */  
+    color: white;  
+    padding: 10px 20px;  
+    border-radius: 10px;  
+    font-size: 30px;  
+}  

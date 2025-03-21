@@ -135,13 +135,13 @@ button:hover {
     width: 350px; /* Уменьшенный размер */  
     height: auto;  
     border-radius: 10px;  
-    margin-bottom: 300px; /* Отступ сверху */  
+    margin-bottom: 400px; /* Отступ сверху */  
 }  
 
 /* Стили для текста на второй вкладке */  
 .tab2-text {  
     position: absolute;  
-    bottom: 150px; /* Расположение внизу */  
+    bottom: 110px; /* Расположение внизу */  
     left: 50%;  
     transform: translateX(-50%);  
     background-color: rgba(0, 0, 0, 0.7); /* Настраиваемый фон */  

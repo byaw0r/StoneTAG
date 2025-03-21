@@ -141,7 +141,7 @@ button:hover {
 /* Стили для текста на второй вкладке */  
 .tab2-text {  
     position: absolute;  
-    bottom: 180px; /* Расположение внизу */  
+    bottom: 168px; /* Расположение внизу */  
     left: 50%;  
     transform: translateX(-50%);  
     background-color: rgba(0, 0, 0, 0.7); /* Настраиваемый фон */  

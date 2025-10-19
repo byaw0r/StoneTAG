@@ -132,44 +132,20 @@ button:hover {
     width: 88%;  
 }  
 
-/* Стили для изображения на второй вкладке */  
-.tab2-image {   
-    max-width: 600px;  
-    width: 350px; /* Уменьшенный размер */  
-    height: auto;  
-    border-radius: 10px;  
-    margin-bottom: 500px; /* Отступ сверху */ 
-}  
-
-/* Стили для текста на второй вкладке */  
-.tab2-text {  
-    min-width: 300px;
-    position: absolute;  
-    bottom: 180px; /* Расположение внизу */  
-    left: 50%;  
-    transform: translateX(-50%);  
-    background-color: rgba(0, 0, 0, 0.7); /* Настраиваемый фон */  
-    color: white;  
-    padding: 10px 20px;  
-    border-radius: 10px;  
-    font-size: 50px;  
-}  
 /* Стили для изображения в первой вкладке */  
 .tab1-icon {  
-    width: 87px; /* Настраиваемая ширина */  
-    height: auto; /* Сохраняет пропорции */  
-    position: absolute; /* Абсолютное позиционирование */  
-    top: -68px; /* Отступ сверху */  
-    left: 10px; /* Смещение влево */  
-    transition: left 0.3s ease; /* Плавное движение */   
+    width: 87px;  
+    height: auto;  
+    position: absolute;  
+    top: -68px;  
+    left: 10px;  
+    transition: left 0.3s ease;  
 }  
 
-/* Пример: Движение влево */  
 .tab1-icon.move-left {  
     left: -0px;  
 }  
 
-/* Пример: Движение вправо */  
 .tab1-icon.move-right {  
     left: 50px;  
-}  
+}
